@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Merriweather", serif;
+    background-color: rgb(246, 243, 239);
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+}
+
+.introduction {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #544541;
+    color: white;
+}
+
+.name {
+    font-size: 16px;
+}
+
+li {
+    margin: 0px 50px;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url("./assets/10\ Sinh.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.name1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+
+}
+
+.brand {
+    font-size: 45px;
+}
+
+.header-title {
+    z-index: 1;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.header-cover {
+    height: 100vh;
+    width: 100%;
+    background-color: #544541;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+
+.about {
+    border: none;
+    display: flex;
+    margin: 70px;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px 1px rgb(185, 185, 185);
+    background-color: white;
+}
+
+.information {
+    width: 50%;
+    display: flex;
+    padding: 30px;
+}
+
+.myself {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.skills {
+    padding: 30px;
+    font-size: 18.72px;
+}
+
+.skille {
+    margin-top: 50px;
+    border-bottom: 2px solid gray;
+}
+
+.skilles {
+    margin-top: 50px;
+}
+
+
+.about-me {
+    width: 50%;
+}
+
+.ban-than {
+    margin-top: 50px;
+
+}
+
+.underline {
+    width: 15%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-bottom: 3px solid #544541;
+}
+
+.latinh {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+hr {
+    width: 15%;
+    color: black;
+}
+
+.section-break {
+    border-top: 2px dashed #544541;
+    width: 70%;
+    margin: auto;
+}
+
+.stat {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.academic-stats {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-break2 {
+    width: 2%;
+    border-top: 3px solid #544541;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.achievements {
+    text-align: center;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first {
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: 350px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px rgb(185, 185, 185);
+    
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border: 15px solid #544541;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+
+}
+
+
+.dunno {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+
+.achievement-cover {
+    background-color: #544541;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    opacity: 0.6;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.achievement {
+    margin-top: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/wallpaperflare.com_wallpaper.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.prize {
+    margin-top: 30px;
+}
+i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 10px solid #F6F3EE;
+    border-radius: 1000px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.school {
+    width: 20%;
+    justify-content: space-between;
+    padding: 50px;
+    z-index: 1;
+}
+
+.so-thich {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.hobbies {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.phu-de {
+    margin-top: 20px;
+}
+
+.section-break3 {
+    width: 6%;
+    border-top: 3px solid #544541;
+    margin: 10px auto;
+}
+
+.hobbies-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.hobbies-descriptions {
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px rgb(185, 185, 185);
+}
+
+.picture2{
+    height: 200px;
+    width: 350px;
+}
+
+.hobbies-specific {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.gambling {
+    margin: 0px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 60%;
+    background-color: white;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.contact-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.bor-mes {
+    
+    width: 30%;
+    border: 2px solid #544541;
+}
+
+.infor {
+    margin-top: 40px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 325px;
+    height: 150px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+input {
+    margin-top: 20px;
+    height: 25px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    font-size: 15px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.in {
+    width: 30%;
+    border: 2px solid #544541;
+}
+
+.contactb {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: #544541;
+    border-radius: 100px;
+    border: none;
+    color: #F6F3EE;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.specific {
+    margin-top: 50px;
+    display: inline;
+    list-style-type: none;
+}
+
+.address {
+    display: inline;
+}
+
+.fa-location-dot {
+    font-size: 20px;
+}
+
+.fa-phone {
+    font-size: 20px;
+}
+
+.fa-envelopes-bulk {
+    font-size: 20px;
+}
+
+.gei {
+    margin-top: 20px;
+}
+
+.address {
+    margin-left: 10px;
+}
+
+.linkedin {
+    color: white;
+}
